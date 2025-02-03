@@ -1,0 +1,48 @@
+@{
+    Layout = "_Layout";
+}
+
+<div class="text-center">
+    <h2>Course Calculator</h2>
+    <p>Does sourdough sound like a difficult process to you? Do you feel that you could never achieve such a task?
+        Do not worry! That is why I am here. To show you that sourdough is really simple and to help you fall in love with making sourdough.
+        My basic services will show you how to: </p>
+    <ol class="centered-list">
+        <li>Maintain a healthy and strong starter</li>
+        <li>Manage the "long" and "time-consuming" sourdough schedule</li>
+        <li>Understand the science behind different ratios, flours, and timing of every step</li>
+        <li>Shape the bread </li>
+        <li>Bake the bread</li>
+        <li>Properly eat the sourdough you just made!</li>
+    </ol>
+    <p> Although I would love to grant you all the free courses in the world, unfortunately I have to pay for supplies and resources, so my services will cost some money. 
+        I created a calculator below to help you know how much it would cost to learn how to make sourdough! All you need to do is input the amount of hours you would like to spend on these services!</p>
+</div>
+
+<div class="calculator">
+    <fieldset>
+        <legend>Hourly Price Calculator</legend>
+        <div>
+            <input type="text" id="hourly-rate" value="$30/hr" readonly data-value="30">
+
+        </div>
+        <div>
+            <input type="text" id="multiply" value="x" readonly>
+        </div>
+        <div>
+            <input type="text" id="hours" placeholder="Enter how many hours you would like to be taught">
+        </div>
+        <div>
+            <button id="calculateResult">Calculate</button>
+            <button id="clearFields" >Clear</button>
+        </div>
+        <div>
+            <input type="text" id="result" placeholder="Result" disabled>
+        </div>
+    </fieldset>
+</div>
+<h3 id="displayMessage" style="text-align: center "> </h3>
+
+
+
+
