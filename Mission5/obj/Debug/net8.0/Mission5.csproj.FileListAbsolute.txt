@@ -28,3 +28,4 @@
 /Users/jennamagleby/RiderProjects/Mission5/Mission5/obj/Debug/net8.0/Mission5.pdb
 /Users/jennamagleby/RiderProjects/Mission5/Mission5/obj/Debug/net8.0/Mission5.genruntimeconfig.cache
 /Users/jennamagleby/RiderProjects/Mission5/Mission5/obj/Debug/net8.0/ref/Mission5.dll
+/Users/jennamagleby/RiderProjects/Mission5/Mission5/obj/Debug/net8.0/Mission5.sourcelink.json
